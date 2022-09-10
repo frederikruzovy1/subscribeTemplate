@@ -218,6 +218,7 @@ input {
     left: -18px;
     position: absolute;
     background-size: contain;
+    pointer-events: none;
   }
 
   .right-img {
