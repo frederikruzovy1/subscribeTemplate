@@ -101,7 +101,6 @@ button:not(:disabled),
 }
 
 .single-step-form-controls-input {
-  color: #a1a8af;
   font-weight: 300;
   height: inherit;
   background-color: transparent;
@@ -114,8 +113,12 @@ button:not(:disabled),
   text-align: left;
 }
 
-.single-step-form-controls-input:focus {
-  color: #323a44;
+.single-step-form-controls-input::placeholder {
+  color: #a1a8af;
+}
+
+.single-step-form-controls-input:focus::placeholder {
+  color: #323a44 !important;
 }
 
 .single-step-form-controls-input,
