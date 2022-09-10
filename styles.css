@@ -118,7 +118,7 @@ button:not(:disabled),
 }
 
 .single-step-form-controls-input:focus::placeholder {
-  color: #323a44 !important;
+  color: #323a44;
 }
 
 .single-step-form-controls-input,
