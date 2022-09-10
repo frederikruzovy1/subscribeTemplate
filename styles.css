@@ -101,7 +101,7 @@ button:not(:disabled),
 }
 
 .single-step-form-controls-input {
-  font-weight: 300;
+  font-weight: 400;
   height: inherit;
   background-color: transparent;
   flex-grow: 1;
