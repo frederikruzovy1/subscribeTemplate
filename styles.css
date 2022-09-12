@@ -17,7 +17,16 @@
   max-width: 635px;
 }
 
+.subscribe-component-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
 .subscribe-component-wrap .heading-wrap {
+  align-items: start;
   text-align: left;
   width: 100%;
   min-height: 100px;
@@ -192,7 +201,7 @@ input {
   .subscribe-component-wrap .heading {
     color: #181818;
     font-size: 24px;
-    margin: 0;
+    margin: 16px 0 0 0;
   }
 
   .subscribe-component-wrap .heading-wrap {
@@ -217,7 +226,6 @@ input {
 
   .subscribe-component-wrap .header-paragraph-wrap {
     font-size: 14px;
-    /* margin-bottom: 16px; */
     margin-bottom: 0;
     margin-top: 0px;
   }
@@ -238,7 +246,7 @@ input {
     background-image: url(assets/man_with_laptop.svg);
     width: 233px;
     height: 165px;
-    top: -120px;
+    top: -116px;
   }
 
   .subscribe-component-wrap .single-step-form-controls-wrap {
