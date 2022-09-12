@@ -57,6 +57,8 @@
 
 .subscribe-component-wrap .header-paragraph {
   margin-bottom: 0;
+  line-height: 130%;
+  font-weight: 500;
 }
 
 .subscribe-component-wrap .footer-paragraph {
@@ -80,7 +82,7 @@
 }
 
 .subscribe-component-wrap .single-step-form-controls-wrap {
-  margin-top: 120px;
+  margin-top: 102px;
   width: 85%;
 }
 
@@ -269,5 +271,11 @@ input {
   .subscribe-component-wrap .button {
     font-size: 11px;
     line-height: 5px;
+  }
+
+  .subscribe-component-wrap .footer-paragraph {
+    margin-top: 16px;
+    width: 140px;
+    height: 15px;
   }
 }
