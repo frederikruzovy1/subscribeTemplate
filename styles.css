@@ -19,9 +19,8 @@
 
 .subscribe-component-wrap .heading-wrap {
   text-align: left;
-  max-width: 300px;
+  width: 100%;
   min-height: 100px;
-  margin: 16px 52px 0px 0px;
 }
 
 .subscribe-component-wrap .heading {
@@ -29,6 +28,7 @@
   font-size: 30px;
   margin: 0;
   line-height: 120%;
+  margin: 16px 52px 0px 34px;
 }
 
 .subscribe-component-wrap .subscribe-area {
@@ -200,6 +200,7 @@ input {
     min-height: 60px;
     margin-right: 0;
     margin-left: 0;
+    max-width: 300px;
   }
 
   .subscribe-component-wrap .mobile-break-line {
