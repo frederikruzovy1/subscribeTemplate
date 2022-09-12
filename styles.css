@@ -84,6 +84,7 @@
 .subscribe-component-wrap .single-step-form-controls-wrap {
   margin-top: 102px;
   width: 85%;
+  padding: 27px 0 22px 0;
 }
 
 .subscribe-component-wrap .single-step-form-controls {
@@ -216,7 +217,9 @@ input {
 
   .subscribe-component-wrap .header-paragraph-wrap {
     font-size: 14px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
+    margin-bottom: 0;
+    margin-top: 0px;
   }
 
   .subscribe-component-wrap .left-img {
@@ -245,6 +248,7 @@ input {
 
   .subscribe-component-wrap .single-step-form-controls{
     height: 43px;
+    margin-top: 16px;
   }
 
   .subscribe-component-wrap .single-step-form-controls-input {
@@ -275,7 +279,6 @@ input {
 
   .subscribe-component-wrap .footer-paragraph {
     margin-top: 16px;
-    width: 140px;
-    height: 15px;
+    width: 138px;
   }
 }
