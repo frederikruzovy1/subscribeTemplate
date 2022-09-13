@@ -1,307 +1,274 @@
-@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap");
-
-* {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-  padding: 0;
+.subscribe-box {
+    font-family: "Montserrat", sans-serif !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
+.subscribe-box .subscribe-box-heading-wrap {
+    align-items: start;
+    text-align: left;
+    width: 100%;
+    min-height: 100px;
 }
 
-.container {
-  background: #f5f5f5;
-  max-width: 635px;
+.subscribe-box .subscribe-box-heading {
+    color: #181818;
+    font-size: 30px;
+    line-height: 120%;
+    margin: 16px 34px 0 34px;
+    font-weight: bold;
 }
 
-.subscribe-component-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
+.subscribe-box .subscribe-box-subscribe-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+    border-radius: 36px;
+    background: rgb(26, 119, 194);
+    background: linear-gradient(151deg, rgba(26, 119, 194, 1) 0%, rgba(0, 212, 255, 0.9303944315545244) 100%);
+    position: relative;
 }
 
-.subscribe-component-wrap .heading-wrap {
-  align-items: start;
-  text-align: left;
-  width: 100%;
-  min-height: 100px;
+.subscribe-box .subscribe-box-label-wrap {
+    align-self: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 32px;
 }
 
-.subscribe-component-wrap .heading {
-  color: #181818;
-  font-size: 30px;
-  margin: 0;
-  line-height: 120%;
-  margin: 16px 52px 0px 34px;
-  font-weight: bold;
+.subscribe-box .subscribe-box-label {
+    margin-bottom: 0;
+    color: #fff;
+    line-height: 130%;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
 }
 
-.subscribe-component-wrap .subscribe-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  height: 400px;
-  margin-top: 70px;
-  border-radius: 36px;
-  background: rgb(26, 119, 194);
-  background: linear-gradient(
-    151deg,
-    rgba(26, 119, 194, 1) 0%,
-    rgba(0, 212, 255, 0.9303944315545244) 100%
-  );
-  position: relative;
+.subscribe-box .subscribe-box-footer {
+    align-self: center;
+    background-image: url(assets/brought-to-you-by-nicereply.svg);
+    width: 190px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 16px;
 }
 
-.subscribe-component-wrap .header-paragraph-wrap {
-  align-self: center;
-  color: #ffffff;
-  font-size: 18px;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin-bottom: 32px;
+.subscribe-box .subscribe-box-right-img {
+    align-self: end;
+    background-image: url(assets/man-with-laptop-mobile.svg);
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 205px;
+    top: -105px;
+    right: 0px;
+    position: absolute;
+    background-size: contain;
 }
 
-.subscribe-component-wrap .header-paragraph {
-  margin-bottom: 0;
-  line-height: 130%;
-  font-weight: 500;
+.subscribe-box .subscribe-box-form-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 102px;
+    width: 85%;
+    padding: 27px 0 22px 0;
 }
 
-.subscribe-component-wrap .footer-paragraph {
-  align-self: center;
-  background-image: url(assets/brought_to_you_by_nicereply.svg);
-  width: 190px;
-  height: 24px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 16px;
-  background-size: contain;
+.subscribe-box .subscribe-box-form-controls {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    border-radius: 35px;
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    max-width: 360px;
+    border: 0;
 }
 
-.subscribe-component-wrap .right-img {
-  align-self: end;
-  background-image: url(assets/man_with_laptop_mobile.svg);
-  background-repeat: no-repeat;
-  width: 290px;
-  height: 205px;
-  top: -105px;
-  right: 0px;
-  position: absolute;
-  background-size: contain;
-}
-
-.subscribe-component-wrap .single-step-form-controls-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 102px;
-  width: 85%;
-  padding: 27px 0 22px 0;
-}
-
-.subscribe-component-wrap .single-step-form-controls {
-  display: flex;
-  align-self: center;
-  flex-direction: row;
-  border-radius: 35px;
-  background-color: #fff;
-  height: 50px;
-  width: 100%;
-  max-width: 360px;
-  border: 0;
-}
-
-.subscribe-component-wrap button:not(:disabled),
+.subscribe-box button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
-  cursor: pointer;
+    cursor: pointer;
 }
 
-.subscribe-component-wrap .single-step-form-controls-input {
-  font-weight: 400;
-  height: inherit;
-  background-color: transparent;
-  flex-grow: 1;
-  border-radius: 35px;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 35px;
-  border: 0 !important;
-  font-size: 13px;
-  text-align: left;
+.subscribe-box .subscribe-box-form-controls-input {
+    font-weight: 400;
+    height: inherit;
+    background-color: transparent;
+    flex-grow: 1;
+    border-radius: 35px;
+    border: 0 !important;
+    font-size: 13px;
+    text-align: left;
 }
 
-.subscribe-component-wrap .single-step-form-controls-input::placeholder {
-  color: #a1a8af;
+.subscribe-box .subscribe-box-form-controls-input {
+    padding: 14px 29px;
 }
 
-.subscribe-component-wrap .single-step-form-controls-input:focus::placeholder {
-  color: #323a44;
+.subscribe-box .subscribe-box-form-controls-input::placeholder {
+    color: #a1a8af;
 }
 
-.subscribe-component-wrap .single-step-form-controls-input,
-.subscribe-component-wrap .single-step-form-controls-submit {
-  outline: 0 !important;
+.subscribe-box .subscribe-box-form-controls-input:focus::placeholder {
+    color: #323a44;
 }
 
-.subscribe-component-wrap .button-gradient-red {
-  background: rgb(255, 150, 149);
-  background: linear-gradient(
-    138deg,
-    rgba(255, 150, 149, 1) 0%,
-    rgba(232, 58, 57, 1) 100%
-  );
-  color: #fff;
+.subscribe-box .subscribe-box-form-controls-input,
+.subscribe-box .subscribe-box-form-controls-submit {
+    outline: 0 !important;
 }
 
-.subscribe-component-wrap .button-gradient-red:hover {
-  background: rgb(255, 201, 201);
-  background: linear-gradient(
-    119deg,
-    rgba(255, 201, 201, 1) 0%,
-    rgba(255, 109, 108, 1) 100%
-  );
-  color: #fff;
+.subscribe-box .button-gradient-red {
+    background: rgb(255, 150, 149);
+    background: linear-gradient(138deg, rgba(255, 150, 149, 1) 0%, rgba(232, 58, 57, 1) 100%);
+    color: #fff;
 }
 
-.subscribe-component-wrap .single-step-form-controls-submit {
-  display: none;
-  margin: 3px;
+.subscribe-box .button-gradient-red:hover {
+    background: rgb(255, 201, 201);
+    background: linear-gradient(119deg, rgba(255, 201, 201, 1) 0%, rgba(255, 109, 108, 1) 100%);
+    color: #fff;
 }
 
-.subscribe-component-wrap .single-step-form-submit-mobile {
-  align-self: center;
-  display: block;
-  width: 100%;
-  max-width: 365px;
+.subscribe-box .subscribe-box-form-controls-submit {
+    display: none;
+    margin: 3px;
 }
 
-.subscribe-component-wrap .single-step-form-submit-mobile-button {
-  max-width: 100%;
-  height: 50px;
+.subscribe-box .subscribe-box-form-submit {
+    height: 50px;
+    margin-top: 8px;
+    align-self: center;
+    display: block;
+    width: 100%;
+    max-width: 365px;
 }
 
-.subscribe-component-wrap .button {
-  text-transform: uppercase;
-  border: 0;
-  outline: 0 !important;
-  border-radius: 35px;
-  padding: 16px 40px;
-  font-weight: 600;
-  font-size: 13px;
-  text-decoration: none;
+.subscribe-box .button {
+    text-transform: uppercase;
+    border: 0;
+    outline: 0 !important;
+    border-radius: 35px;
+    padding: 16px 40px;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
 }
 
-.subscribe-component-wrap button,
+.subscribe-box button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+    -webkit-appearance: button;
 }
 
-.subscribe-component-wrap button,
+.subscribe-box button,
 input {
-  overflow: visible;
+    overflow: visible;
 }
 
 @media (min-width: 768px) {
-  .subscribe-component-wrap .heading {
-    color: #181818;
-    font-size: 24px;
-    margin: 16px 0 0 0;
-  }
+    .subscribe-box .subscribe-box-heading {
+        font-size: 24px;
+        margin: 16px 0 0 0;
+    }
 
-  .subscribe-component-wrap .heading-wrap {
-    text-align: center;
-    min-height: 60px;
-    margin-right: 0;
-    margin-left: 0;
-    max-width: 300px;
-  }
+    .subscribe-box .subscribe-box-label-wrap {
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
 
-  .subscribe-component-wrap .mobile-break-line {
-    display: none;
-  }
+    .subscribe-box .subscribe-box-heading-wrap {
+        text-align: center;
+        min-height: 60px;
+        margin-right: 0;
+        margin-left: 0;
+        max-width: 300px;
+    }
 
-  .subscribe-component-wrap .subscribe-area {
-    max-width: 600px;
-    margin-left: 0px;
-    margin-top: 42px;
-    border-radius: 85px 0px 85px 85px;
-    height: 162px;
-  }
+    .subscribe-box .subscribe-box-subscribe-area {
+        max-width: 600px;
+        margin-left: 0px;
+        margin-top: 42px;
+        border-radius: 85px 0px 85px 85px;
+        height: 162px;
+    }
 
-  .subscribe-component-wrap .header-paragraph-wrap {
-    font-size: 14px;
-    margin-bottom: 0;
-    margin-top: 0px;
-  }
+    .subscribe-box .subscribe-box-label {
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 
-  .subscribe-component-wrap .left-img {
-    align-self: end;
-    background-image: url(assets/woman_with_cookies.svg);
-    background-repeat: no-repeat;
-    width: 235px;
-    height: 243px;
-    margin-bottom: -1px;
-    left: -18px;
-    position: absolute;
-    background-size: contain;
-    pointer-events: none;
-  }
+    .subscribe-box .subscribe-box-left-img {
+        align-self: end;
+        background-image: url(assets/woman-with-cookies.svg);
+        background-repeat: no-repeat;
+        width: 235px;
+        height: 243px;
+        margin-bottom: -1px;
+        left: -18px;
+        position: absolute;
+        background-size: contain;
+        pointer-events: none;
+    }
 
-  .subscribe-component-wrap .right-img {
-    background-image: url(assets/man_with_laptop.svg);
-    width: 233px;
-    height: 165px;
-    top: -116px;
-  }
+    .subscribe-box .subscribe-box-right-img {
+        background-image: url(assets/man-with-laptop.svg);
+        width: 233px;
+        height: 165px;
+        top: -116px;
+    }
 
-  .subscribe-component-wrap .single-step-form-controls-wrap {
-    margin-top: 0;
-    width: 100%;
-  }
+    .subscribe-box .subscribe-box-form-wrap {
+        margin-top: 0;
+        width: 100%;
+    }
 
-  .subscribe-component-wrap .single-step-form-controls {
-    height: 43px;
-    margin-top: 16px;
-  }
+    .subscribe-box .subscribe-box-form-controls {
+        height: 43px;
+        margin-top: 16px;
+    }
 
-  .subscribe-component-wrap .single-step-form-controls-input {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    padding: 10px 0 10px 29px;
-    text-align: left;
-  }
+    .subscribe-box .subscribe-box-form-controls-input {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 10px 0 10px 29px;
+        text-align: left;
+    }
 
-  .subscribe-component-wrap .single-step-form-controls-submit {
-    display: block;
-    height: 37px;
-    max-height: inherit;
-  }
+    .subscribe-box .subscribe-box-form-controls-submit {
+        height: 37px;
+        max-height: inherit;
+    }
 
-  .subscribe-component-wrap .single-step-form-controls-submit:hover {
-    padding: 8px 30px;
-  }
+    .subscribe-box .subscribe-box-form-controls-submit:hover {
+        padding: 8px 30px;
+    }
 
-  .subscribe-component-wrap .single-step-form-submit-mobile {
-    display: none;
-  }
+    .subscribe-box .button {
+        font-size: 11px;
+        line-height: 5px;
+    }
 
-  .subscribe-component-wrap .button {
-    font-size: 11px;
-    line-height: 5px;
-  }
-
-  .subscribe-component-wrap .footer-paragraph {
-    margin-top: 16px;
-    width: 138px;
-    height: 15px;
-  }
+    .subscribe-box .subscribe-box-footer {
+        margin-top: 16px;
+        width: 138px;
+        height: 15px;
+    }
 }

@@ -2,52 +2,72 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Component</title>
-  <meta name="description" content="template">
-  <meta name="author" content="frederikruzovy1">
+    <title>Subscribe Box</title>
+    <meta name="description" content="Subscribe Box">
+    <meta name="author" content="frederikruzovy1">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link href="https://www.nicereply.com/blog/wp-content/themes/theme-v2/assets/css/blog.css?ver=1.4" rel="stylesheet" id="bootstrap-bundle-css">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-  <script type='text/javascript' src='https://www.nicereply.com/blog/wp-content/themes/theme-v2/assets/js/bootstrap.bundle.min.js?ver=1.0' id='boostrap-bundle-js'></script>
-  <link rel="stylesheet" href="styles.css?v=1.0">
+    <link href="https://www.nicereply.com/blog/wp-content/themes/theme-v2/assets/css/blog.css?ver=1.4" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=1.0">
 
-</head>   
+</head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 p-0">
-        <div class="subscribe-component-wrap">
-          <div class="heading-wrap">
-            <h1 class="heading text-wrap">Start your day<br class="d-md-none"> with great <br class="d-md-none">quality <br class="d-md-none">content</h1>
-          </div>
-          <div class="subscribe-area">
-            <div class="left-img"></div>
-            <div class="single-step-form-controls-wrap">
-              <div class="header-paragraph-wrap">
-                <p class="header-paragraph">Stay updated with<br class="mobile-break-line"> our newsletter</p>
-              </div>
-              <div class="single-step-form-controls">
-                <input class="single-step-form-controls-input" type="email" placeholder="E-mail adress" name="default_email" required="required">
-                <button class="single-step-form-controls-submit button button-gradient-red" type="submit" id="homepage-header-trial-cta">Subscribe</button>
-              </div>
-              <div class="single-step-form-submit-mobile">
-                <button class="button button-gradient-red single-step-form-submit-mobile-button" type="submit">Subscribe</button>
-              </div>
-              <div class="footer-paragraph">
-              </div>
+<article class="section-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 offset-lg-3 col-lg-7">
+                <div class="nr-cs-post-quote">
+                    <p>What is an employee experience and why does it matter?</p>
+                </div>
+                <p>
+                    Whatever industry you are in, delivering <strong>outstanding customer experience</strong> is most
+                    probably one of the major goals of your business. While there are several key factors contributing
+                    to customer experience, having an employee-centric culture within your organization can
+                    significantly add to it.
+                </p>
+
+                <!-- subscribe-box start -->
+                <div class="subscribe-box">
+                    <div class="subscribe-box-heading-wrap">
+                        <h1 class="subscribe-box-heading">Start your day<br class="d-md-none"> with great <br class="d-md-none">quality <br class="d-md-none">content</h1>
+                    </div>
+                    <div class="subscribe-box-subscribe-area">
+                        <div class="subscribe-box-left-img"></div>
+                        <form action="/subscribe" method="POST" class="subscribe-box-form-wrap">
+                            <div class="subscribe-box-label-wrap">
+                                <label for="subscribe-box-email" class="subscribe-box-label">Stay updated with<br class="d-md-none"> our newsletter</label>
+                            </div>
+                            <div class="subscribe-box-form-controls">
+                                <input class="subscribe-box-form-controls-input" id="subscribe-box-email" type="email" placeholder="E-mail address" name="email" required="required">
+                                <button class="subscribe-box-form-controls-submit d-md-block button button-gradient-red" type="submit">Subscribe</button>
+                            </div>
+                            <button class="d-sm-none button button-gradient-red subscribe-box-form-submit" type="submit">Subscribe</button>
+                            <div class="subscribe-box-footer"></div>
+                        </form>
+                        <div class="subscribe-box-right-img"></div>
+                    </div>
+                </div>
+                <!-- subscribe box end -->
+
+                <p>
+                    The ‘The Employee Experience Index’ <a href="https://www.ibm.com/downloads/cas/QDAVJA5E">study by
+                    IBM</a> Smarter Workforce Institute defines employee experience as:
+                    <em>
+                        “A set of perceptions that
+                        employees have about their experiences at work in response to their interactions with the
+                        organization.”
+                    </em>
+                </p>
             </div>
-            <div class="right-img"></div>
-          </div>
         </div>
-      </div>
-  </div>
+    </div>
+</article>
 </body>
 </html>
