@@ -1,18 +1,18 @@
 .subscribe-box {
-    font-family: "Montserrat", sans-serif !important;
+    font-family: Montserrat, sans-serif !important;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .subscribe-box .subscribe-box-heading-wrap {
     align-items: start;
     text-align: left;
     width: 100%;
-    min-height: 100px;
+    min-height: 100px
 }
 
 .subscribe-box .subscribe-box-heading {
@@ -20,7 +20,7 @@
     font-size: 30px;
     line-height: 120%;
     margin: 16px 34px 0 34px;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .subscribe-box .subscribe-box-subscribe-area {
@@ -31,18 +31,18 @@
     height: 400px;
     margin-top: 70px;
     border-radius: 36px;
-    background: rgb(26, 119, 194);
-    background: linear-gradient(151deg, rgba(26, 119, 194, 1) 0%, rgba(0, 212, 255, 0.9303944315545244) 100%);
-    position: relative;
+    background: #1a77c2;
+    background: linear-gradient(151deg, rgba(26, 119, 194, 1) 0, rgba(0, 212, 255, .9303944315545244) 100%);
+    position: relative
 }
 
 .subscribe-box .subscribe-box-label-wrap {
     align-self: center;
-    color: #ffffff;
+    color: #fff;
     font-size: 18px;
     margin-right: 15%;
     margin-left: 15%;
-    margin-bottom: 32px;
+    margin-bottom: 32px
 }
 
 .subscribe-box .subscribe-box-label {
@@ -50,8 +50,8 @@
     color: #fff;
     line-height: 130%;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px
 }
 
 .subscribe-box .subscribe-box-footer {
@@ -61,7 +61,7 @@
     height: 24px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 16px;
+    margin-top: 16px
 }
 
 .subscribe-box .subscribe-box-right-img {
@@ -71,9 +71,9 @@
     width: 290px;
     height: 205px;
     top: -105px;
-    right: 0px;
+    right: 0;
     position: absolute;
-    background-size: contain;
+    background-size: contain
 }
 
 .subscribe-box .subscribe-box-form-wrap {
@@ -82,7 +82,7 @@
     justify-content: center;
     margin-top: 102px;
     width: 85%;
-    padding: 27px 0 22px 0;
+    padding: 27px 0 22px 0
 }
 
 .subscribe-box .subscribe-box-form-controls {
@@ -94,14 +94,11 @@
     height: 50px;
     width: 100%;
     max-width: 360px;
-    border: 0;
+    border: 0
 }
 
-.subscribe-box button:not(:disabled),
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled) {
-    cursor: pointer;
+.subscribe-box button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    cursor: pointer
 }
 
 .subscribe-box .subscribe-box-form-controls-input {
@@ -112,41 +109,40 @@
     border-radius: 35px;
     border: 0 !important;
     font-size: 13px;
-    text-align: left;
+    text-align: left
 }
 
 .subscribe-box .subscribe-box-form-controls-input {
-    padding: 14px 29px;
+    padding: 14px 29px
 }
 
 .subscribe-box .subscribe-box-form-controls-input::placeholder {
-    color: #a1a8af;
+    color: #a1a8af
 }
 
 .subscribe-box .subscribe-box-form-controls-input:focus::placeholder {
-    color: #323a44;
+    color: #323a44
 }
 
-.subscribe-box .subscribe-box-form-controls-input,
-.subscribe-box .subscribe-box-form-controls-submit {
-    outline: 0 !important;
+.subscribe-box .subscribe-box-form-controls-input, .subscribe-box .subscribe-box-form-controls-submit {
+    outline: 0 !important
 }
 
 .subscribe-box .button-gradient-red {
-    background: rgb(255, 150, 149);
-    background: linear-gradient(138deg, rgba(255, 150, 149, 1) 0%, rgba(232, 58, 57, 1) 100%);
-    color: #fff;
+    background: #ff9695;
+    background: linear-gradient(138deg, rgba(255, 150, 149, 1) 0, rgba(232, 58, 57, 1) 100%);
+    color: #fff
 }
 
 .subscribe-box .button-gradient-red:hover {
-    background: rgb(255, 201, 201);
-    background: linear-gradient(119deg, rgba(255, 201, 201, 1) 0%, rgba(255, 109, 108, 1) 100%);
-    color: #fff;
+    background: #ffc9c9;
+    background: linear-gradient(119deg, rgba(255, 201, 201, 1) 0, rgba(255, 109, 108, 1) 100%);
+    color: #fff
 }
 
 .subscribe-box .subscribe-box-form-controls-submit {
     display: none;
-    margin: 3px;
+    margin: 3px
 }
 
 .subscribe-box .subscribe-box-form-submit {
@@ -155,7 +151,7 @@
     align-self: center;
     display: block;
     width: 100%;
-    max-width: 365px;
+    max-width: 365px
 }
 
 .subscribe-box .button {
@@ -166,31 +162,27 @@
     padding: 16px 40px;
     font-weight: 600;
     font-size: 13px;
-    text-decoration: none;
+    text-decoration: none
 }
 
-.subscribe-box button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-    -webkit-appearance: button;
+.subscribe-box button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
 }
 
-.subscribe-box button,
-input {
-    overflow: visible;
+.subscribe-box button, input {
+    overflow: visible
 }
 
 @media (min-width: 768px) {
     .subscribe-box .subscribe-box-heading {
         font-size: 24px;
-        margin: 16px 0 0 0;
+        margin: 16px 0 0 0
     }
 
     .subscribe-box .subscribe-box-label-wrap {
         font-size: 14px;
         margin-bottom: 0;
-        margin-top: 0px;
+        margin-top: 0
     }
 
     .subscribe-box .subscribe-box-heading-wrap {
@@ -198,21 +190,21 @@ input {
         min-height: 60px;
         margin-right: 0;
         margin-left: 0;
-        max-width: 300px;
+        max-width: 300px
     }
 
     .subscribe-box .subscribe-box-subscribe-area {
         max-width: 600px;
-        margin-left: 0px;
+        margin-left: 0;
         margin-top: 42px;
-        border-radius: 85px 0px 85px 85px;
-        height: 162px;
+        border-radius: 85px 0 85px 85px;
+        height: 162px
     }
 
     .subscribe-box .subscribe-box-label {
         font-size: 14px;
         margin-bottom: 0;
-        margin-top: 0;
+        margin-top: 0
     }
 
     .subscribe-box .subscribe-box-left-img {
@@ -225,50 +217,50 @@ input {
         left: -18px;
         position: absolute;
         background-size: contain;
-        pointer-events: none;
+        pointer-events: none
     }
 
     .subscribe-box .subscribe-box-right-img {
         background-image: url(assets/man-with-laptop.svg);
         width: 233px;
         height: 165px;
-        top: -116px;
+        top: -116px
     }
 
     .subscribe-box .subscribe-box-form-wrap {
         margin-top: 0;
-        width: 100%;
+        width: 100%
     }
 
     .subscribe-box .subscribe-box-form-controls {
         height: 43px;
-        margin-top: 16px;
+        margin-top: 16px
     }
 
     .subscribe-box .subscribe-box-form-controls-input {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         padding: 10px 0 10px 29px;
-        text-align: left;
+        text-align: left
     }
 
     .subscribe-box .subscribe-box-form-controls-submit {
         height: 37px;
-        max-height: inherit;
+        max-height: inherit
     }
 
     .subscribe-box .subscribe-box-form-controls-submit:hover {
-        padding: 8px 30px;
+        padding: 8px 30px
     }
 
     .subscribe-box .button {
         font-size: 11px;
-        line-height: 5px;
+        line-height: 5px
     }
 
     .subscribe-box .subscribe-box-footer {
         margin-top: 16px;
         width: 138px;
-        height: 15px;
+        height: 15px
     }
 }
