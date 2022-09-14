@@ -172,127 +172,126 @@
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
-  .subscribe-box .subscribe-box-subscribe-area {
-    width: 100vw;
-  }
+    .subscribe-box .subscribe-box-subscribe-area {
+        width: 100vw;
+    }
 }
 
 @media (min-width: 375px) and (max-width: 575px) {
-  .subscribe-box .subscribe-box-subscribe-area {
-    margin-top: 93px;
-  }
+    .subscribe-box .subscribe-box-subscribe-area {
+        margin-top: 93px;
+    }
 
-  .subscribe-box .subscribe-box-right-img {
-    width: 326px;
-    height: 233px;
-    right: 15px;
-    top: -146px
-  }
+    .subscribe-box .subscribe-box-right-img {
+        width: 326px;
+        height: 233px;
+        right: 15px;
+        top: -146px
+    }
 
-  .subscribe-box .subscribe-box-form-wrap {
-    margin-top: 108px;
-    padding: 0 0 22px 0
-  }
+    .subscribe-box .subscribe-box-form-wrap {
+        margin-top: 108px;
+        padding: 0 0 22px 0
+    }
 
-  .subscribe-box .subscribe-box-label-wrap {
-    margin-bottom: 32px
-  }
+    .subscribe-box .subscribe-box-label-wrap {
+        margin-bottom: 32px
+    }
 
-  .subscribe-box .subscribe-box-form-controls {
-    height: 60px
-  }
+    .subscribe-box .subscribe-box-form-controls {
+        height: 60px
+    }
 
-  .subscribe-box .subscribe-box-form-controls-input {
-    font-size: 15px;
-    font-weight: 300;
-  }
+    .subscribe-box .subscribe-box-form-controls-input {
+        font-size: 15px;
+        font-weight: 300;
+    }
 
-  .subscribe-box .subscribe-box-form-submit {
-    height: 60px;
-    font-size: 16px
-  }
+    .subscribe-box .subscribe-box-form-submit {
+        height: 60px;
+        font-size: 16px
+    }
 
-  .subscribe-box .subscribe-box-footer {
-    width: 226px;
-    height: 23px;
-    margin-top: 33px;
-  }
+    .subscribe-box .subscribe-box-footer {
+        width: 226px;
+        height: 23px;
+        margin-top: 33px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .subscribe-box .subscribe-box-heading {
+        margin: 41px 0 0 37px
+    }
 
-  .subscribe-box .subscribe-box-heading {
-    margin: 41px 0 0 37px
-  }
+    .subscribe-box .subscribe-box-left-img {
+        align-self: end;
+        background-image: url(assets/woman-with-cookies-tablet.svg);
+        background-repeat: no-repeat;
+        width: 112px;
+        height: 212px;
+        margin-bottom: 0;
+        left: 0;
+        position: absolute;
+        background-size: contain;
+        pointer-events: none
+    }
 
-  .subscribe-box .subscribe-box-left-img {
-    align-self: end;
-    background-image: url(assets/woman-with-cookies-tablet.svg);
-    background-repeat: no-repeat;
-    width: 112px;
-    height: 212px;
-    margin-bottom: 0;
-    left: 0;
-    position: absolute;
-    background-size: contain;
-    pointer-events: none
-}
+    .subscribe-box .subscribe-box-right-img {
+        background-image: url(assets/man-with-laptop-tablet.svg);
+        width: 257px;
+        height: 222px;
+        top: -158px;
+        right: 0
+    }
 
-  .subscribe-box .subscribe-box-right-img {
-    background-image: url(assets/man-with-laptop-tablet.svg);
-    width: 257px;
-    height: 222px;
-    top: -158px;
-    right: 0
-  }
+    .subscribe-box .subscribe-box-subscribe-area {
+        height: 232px;
+        margin-top: 38px
+    }
 
-  .subscribe-box .subscribe-box-subscribe-area {
-    height: 232px;
-    margin-top: 38px
-  }
+    .subscribe-box .subscribe-box-form-wrap {
+        padding: 0 0 0 0;
+        margin-top: 40px
+    }
 
-  .subscribe-box .subscribe-box-form-wrap {
-    padding: 0 0 0 0;
-    margin-top: 40px
-  }
+    .subscribe-box .subscribe-box-label-wrap {
+        margin: 0;
+    }
 
-  .subscribe-box .subscribe-box-label-wrap {
-    margin: 0;
-  }
+    .subscribe-box .subscribe-box-label {
+        font-size: 14px;
+    }
 
-  .subscribe-box .subscribe-box-label {
-    font-size: 14px;
-  }
+    .subscribe-box .subscribe-box-form-controls {
+        margin-left: 10px;
+        height: 43px;
+        margin-top: 18px
+    }
 
-  .subscribe-box .subscribe-box-form-controls {
-    margin-left: 10px;
-    height: 43px;
-    margin-top: 18px
-  }
+    .subscribe-box .subscribe-box-form-controls-input {
+        padding: 10px 0 10px 29px;
+    }
 
-  .subscribe-box .subscribe-box-form-controls-input {
-    padding: 10px 0 10px 29px;
-  }
+    .subscribe-box .subscribe-box-form-submit-desktop {
+        height: 37px;
+        max-height: inherit;
+    }
 
-  .subscribe-box .subscribe-box-form-submit-desktop {
-    height: 37px;
-    max-height: inherit;
-  }
+    .subscribe-box .button {
+        font-size: 11px;
+        line-height: 5px;
+    }
 
-  .subscribe-box .button {
-    font-size: 11px;
-    line-height: 5px;
-  }
+    .subscribe-box .subscribe-box-form-submit-desktop:hover {
+        padding: 8px 30px
+    }
 
-  .subscribe-box .subscribe-box-form-submit-desktop:hover {
-    padding: 8px 30px
-  }
-
-  .subscribe-box .subscribe-box-footer {
-    margin-top: 43px;
-    width: 138px;
-    height: 15px
-  }
+    .subscribe-box .subscribe-box-footer {
+        margin-top: 43px;
+        width: 138px;
+        height: 15px
+    }
 }
 
 @media (min-width: 768px) {
@@ -352,7 +351,7 @@
     .subscribe-box .subscribe-box-form-wrap {
         margin-top: 0;
         padding: 0 0 22px 0;
-        width: 100%   
+        width: 100%
     }
 
     .subscribe-box .subscribe-box-form-controls {
