@@ -247,7 +247,8 @@
 
     .subscribe-box .subscribe-box-subscribe-area {
         height: 232px;
-        margin-top: 38px
+        margin-top: 38px;
+        width: 100vw
     }
 
     .subscribe-box .subscribe-box-form-wrap {
