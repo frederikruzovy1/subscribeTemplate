@@ -98,7 +98,10 @@
     border: 0
 }
 
-.subscribe-box button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+.subscribe-box button:not(:disabled),
+.subscribe-box [type=button]:not(:disabled),
+.subscribe-box [type=reset]:not(:disabled),
+.subscribe-box [type=submit]:not(:disabled) {
     cursor: pointer
 }
 
@@ -122,7 +125,8 @@
     color: #323a44
 }
 
-.subscribe-box .subscribe-box-form-controls-input, .subscribe-box .subscribe-box-form-submit-desktop {
+.subscribe-box .subscribe-box-form-controls-input,
+.subscribe-box .subscribe-box-form-submit-desktop {
     outline: 0 !important
 }
 
