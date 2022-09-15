@@ -176,6 +176,10 @@
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
+    .subscribe-box .subscribe-box-heading-wrap {
+        width: 100vw;
+    }
+
     .subscribe-box .subscribe-box-subscribe-area {
         width: 100vw;
     }
@@ -184,6 +188,11 @@
 @media (min-width: 375px) and (max-width: 575px) {
     .subscribe-box .subscribe-box-subscribe-area {
         margin-top: 93px;
+    }
+
+    .subscribe-box .subscribe-box-heading {
+        margin-left: 44px;
+        margin-right: 44px;
     }
 
     .subscribe-box .subscribe-box-right-img {
@@ -247,6 +256,10 @@
         height: 222px;
         top: -158px;
         right: 0
+    }
+
+    .subscribe-box .subscribe-box-heading-wrap {
+        width: 100vw
     }
 
     .subscribe-box .subscribe-box-subscribe-area {
