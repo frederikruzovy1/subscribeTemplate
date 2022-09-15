@@ -223,7 +223,7 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) {
     .subscribe-box .subscribe-box-heading {
         margin: 41px 0 0 37px
     }
@@ -275,7 +275,10 @@
     }
 
     .subscribe-box .subscribe-box-form-controls-input {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
         padding: 10px 0 10px 29px;
+        text-align: left
     }
 
     .subscribe-box .subscribe-box-form-submit-desktop {
@@ -306,7 +309,6 @@
     }
 
     .subscribe-box .subscribe-box-label-wrap {
-        font-size: 14px;
         margin-bottom: 0;
         margin-top: 27px
     }
@@ -334,16 +336,11 @@
     }
 
     .subscribe-box .subscribe-box-left-img {
-        align-self: end;
         background-image: url(assets/woman-with-cookies.svg);
-        background-repeat: no-repeat;
         width: 235px;
         height: 243px;
         margin-bottom: -1px;
         left: -18px;
-        position: absolute;
-        background-size: contain;
-        pointer-events: none
     }
 
     .subscribe-box .subscribe-box-right-img {
@@ -356,38 +353,14 @@
     .subscribe-box .subscribe-box-form-wrap {
         margin-top: 0;
         padding: 0 0 22px 0;
-        width: 100%
     }
 
     .subscribe-box .subscribe-box-form-controls {
-        height: 43px;
         margin-top: 16px
-    }
-
-    .subscribe-box .subscribe-box-form-controls-input {
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        padding: 10px 0 10px 29px;
-        text-align: left
-    }
-
-    .subscribe-box .subscribe-box-form-submit-desktop {
-        height: 37px;
-        max-height: inherit
-    }
-
-    .subscribe-box .subscribe-box-form-submit-desktop:hover {
-        padding: 8px 30px
-    }
-
-    .subscribe-box .button {
-        font-size: 11px;
-        line-height: 5px
     }
 
     .subscribe-box .subscribe-box-footer {
         margin-top: 16px;
-        width: 138px;
         height: 15px
     }
 }
